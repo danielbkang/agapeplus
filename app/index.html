@@ -6,15 +6,20 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AgapePlus</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
   <link rel="stylesheet" href="bootstrap/css/app.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+  <!-- jQuery -->
+  <script src="jquery/jquery-2.2.3.js" type="text/javascript" charset="utf-8"></script>
+  
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+
+  <title>AgapePlus</title>
 </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
@@ -53,14 +58,14 @@
           </ul>
         </div><!--/.nav-collapse -->
       </div>
-    </nav>
+  </nav>
 
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <div ng-view></div>
 
+  <div ng-view></div>
   <div>Angular seed app: v<span app-version></span></div>
 
   <!-- In production use:
